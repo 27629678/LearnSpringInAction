@@ -1,6 +1,6 @@
 package com.xoyo.knights;
 
-public class DamselRescuingKnight implements Knight {
+public class DamselRescuingKnight extends Knight {
 
     private RescueDamselQuest quest;
 

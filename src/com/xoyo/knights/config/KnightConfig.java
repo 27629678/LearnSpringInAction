@@ -1,9 +1,6 @@
 package com.xoyo.knights.config;
 
-import com.xoyo.knights.BraveKnight;
-import com.xoyo.knights.Knight;
-import com.xoyo.knights.Quest;
-import com.xoyo.knights.SlayDragonQuest;
+import com.xoyo.knights.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -19,4 +16,7 @@ public class KnightConfig {
     public Quest quest() {
         return new SlayDragonQuest(System.out);
     }
+
+    @Bean
+    public Minstrel minstrel() { return new Minstrel(System.out); }
 }

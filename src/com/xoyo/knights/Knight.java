@@ -1,6 +1,6 @@
 package com.xoyo.knights;
 
-public interface Knight {
+public abstract class Knight {
 
-    public void embarkOnQuest();
+    public abstract void embarkOnQuest();
 }
