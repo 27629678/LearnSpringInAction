@@ -2,6 +2,7 @@ package com.xoyo.soundsystem;
 
 import org.springframework.stereotype.Component;
 
+// @Named
 @Component
 public class SgtPeppers implements CompactDisc {
 
